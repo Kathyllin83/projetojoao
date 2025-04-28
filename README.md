@@ -57,7 +57,9 @@ A senha segue o padrão: `YYMMDD-PPSQ`
 - **HTML5 / SCSS**
 - **Responsividade** (compatível com totens, tablets e desktops)
 
-
+Url imagens :
+background : https://media.canva.com/v2/image-resize/format:JPG/height:1066/quality:92/uri:ifs%3A%2F%2F%2Fc4222a12-b1f3-4a42-9cd1-f546acebda6c/watermark:F/width:1599?csig=AAAAAAAAAAAAAAAAAAAAAG0iDfITqobA6R4emJ5g4UkclKjmVmS40RXXDUC60FDv&exp=1745823145&osig=AAAAAAAAAAAAAAAAAAAAAGWkW47GU7K7PQt_M7j_Z9wbY6U-K3iim-iZPWOPggHv&signer=media-rpc&x-canva-quality=screen_2x
+logo : https://media.canva.com/v2/image-resize/format:PNG/height:452/quality:100/uri:ifs%3A%2F%2F%2Fcd38702e-025c-4229-b035-daecc5a07c27/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAM09G87cD8r8rm8rikq-rx31-MmWyeJS8jdL2bfX2wYt&exp=1745821202&osig=AAAAAAAAAAAAAAAAAAAAANXwZ4HfcTfADf-FOx-eZKbDP-syjCF5VTdLSMHjqzwm&signer=media-rpc&x-canva-quality=screen
 
 ## 🚀 **Instalação**
 
