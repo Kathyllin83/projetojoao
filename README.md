@@ -1,5 +1,9 @@
 # 🚀 Sistema de Controle de Atendimento 🏥
 
+Equipe : Kathyllin De Oliveira Bandeira -01648545
+Joana Elena Cardoso -01651396
+Emilia Neri Vanderlei -01648559
+Professor : João Ferreira da Silva Junior
 ## Visão Geral
 **Sistema web desenvolvido em Angular** para controle de filas de atendimento em **laboratórios médicos**, baseado em uma lógica de senhas com priorização.
 
