@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Relatório </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="custom-content">
+  <ion-card class="custom-card">
+    <ion-card-content>
+      <ion-list>
+        <ion-label class="custom-label">Relatório</ion-label>
+        <ion-item class="custom-item"> Senhas emitidas: {{ senhasService.senhasTotal}} </ion-item>
+        <ion-item class="custom-item"> Senhas Geral: {{ senhasService.senhasGeral}} </ion-item>
+        <ion-item class="custom-item">
+          Senhas Prioritárias: {{ senhasService.senhasPrior}}
+        </ion-item>
+        <ion-item class="custom-item"> Senhas Exame: {{ senhasService.senhasExame}} </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="custom-card">
+    <ion-card-header class="custom-card-header">
+      <ion-card-title class="custom-card-title">Relatório Detalhado</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content class="custom-card-content">
+      <ion-list *ngFor="let item of senhasService.historicoAtendimentos">
+        <ion-item class="custom-item">
+          <ion-label class="custom-label">
+            <h3>Senha: {{item.senha}}</h3>
+            <p>Tipo: {{item.tipo}}</p>
+            <p>Tempo Estimado: {{item.tempo}} minutos</p>
+            <p>Data/Hora: {{item.horario}}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="custom-card">
+    <ion-card-header class="custom-card-header">
+      <ion-title class="custom-red-title">Senhas Descartadas</ion-title>
+    </ion-card-header>
+    <ion-card-content class="custom-card-content">
+      <ion-list *ngFor="let item of senhasService.senhasDescartadas">
+        <ion-item class="custom-item">
+          <ion-label class="custom-label">
+            <h3>Senha: {{ item.senha }}</h3>
+            <p>Tipo: {{ item.tipo }}</p>
+            <p>Data/Hora do Descarte: {{ item.horario }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

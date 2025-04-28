@@ -1,0 +1,88 @@
+.custom-header ion-toolbar {
+    --color: rgb(12, 67, 98); 
+  }
+  
+  .custom-toolbar {
+    --background: #00000079;
+    --color: white;
+  }
+  
+  .custom-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .custom-content {
+    --background: url('https://media.canva.com/v2/image-resize/format:JPG/height:1066/quality:92/uri:ifs%3A%2F%2F%2Fc4222a12-b1f3-4a42-9cd1-f546acebda6c/watermark:F/width:1599?csig=AAAAAAAAAAAAAAAAAAAAAG0iDfITqobA6R4emJ5g4UkclKjmVmS40RXXDUC60FDv&exp=1745823145&osig=AAAAAAAAAAAAAAAAAAAAAGWkW47GU7K7PQt_M7j_Z9wbY6U-K3iim-iZPWOPggHv&signer=media-rpc&x-canva-quality=screen_2x') no-repeat center center / cover;
+    padding: 20px;
+    height: 100%;
+    background-color: transparent; 
+  }
+  
+  .custom-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #094a875a; 
+    box-shadow: none;
+  }
+  
+  .list-ios {
+    background: #f0f0f000;
+  }
+  
+  .custom-card-header {
+    background-color: #04418300; 
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    width: 100%; 
+    max-width: 400px; 
+    margin: 10px auto; 
+    display: block; 
+  }
+  
+  .custom-card-title {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .custom-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #022e6b; 
+    padding: 10px;
+    background-color: transparent; /* Removendo o fundo branco */
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  .custom-label {
+    color: #000000;
+  }
+  
+  .custom-red-title {
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  ion-button {
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #17314e3d;
+    --color: white;
+    --border-color: white;
+  }
+  
+  ion-button.expand {
+    width: 100%;
+    max-width: 320px;
+  }
+  

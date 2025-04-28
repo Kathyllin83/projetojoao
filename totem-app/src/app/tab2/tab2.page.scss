@@ -1,0 +1,113 @@
+ion-content {
+  --background: url('https://media.canva.com/v2/image-resize/format:JPG/height:1066/quality:92/uri:ifs%3A%2F%2F%2Fc4222a12-b1f3-4a42-9cd1-f546acebda6c/watermark:F/width:1599?csig=AAAAAAAAAAAAAAAAAAAAAG0iDfITqobA6R4emJ5g4UkclKjmVmS40RXXDUC60FDv&exp=1745823145&osig=AAAAAAAAAAAAAAAAAAAAAGWkW47GU7K7PQt_M7j_Z9wbY6U-K3iim-iZPWOPggHv&signer=media-rpc&x-canva-quality=screen_2x') no-repeat center center / cover;
+  height: 100%;
+}
+
+
+.custom-toolbar {
+  --background: #041a3179;
+  --color: white;
+}
+ion-card-header{
+color: #ffffff;
+}
+ion-text{
+  color: #ffffff;
+}
+.chamarProximaSenha,
+.Paciente,
+.relatorio {
+  display: block;
+  width: 80%;
+  max-width: 280px;
+  margin: 10px auto;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  --color: white;
+  --border-color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.chamarProximaSenha:focus,
+.Paciente:focus,
+.relatorio:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.chamarProximaSenha:active,
+.Paciente:active {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.chamarProximaSenha:hover,
+.Paciente:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+ion-button {
+  --background: transparent !important;
+  --box-shadow: none !important;
+  --ripple-color: transparent !important;
+  --color: white !important;
+  --border-color: white !important;
+  outline: none !important;
+}
+
+.controle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.495);
+}
+
+.senha h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.senha p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-senha-atual {
+  font-size: 24px;
+  text-align: center;
+  background-color: #0e47973e;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card-ultimas-senhas {
+  min-height: 400px;
+  padding: 20px;
+  background-color: rgba(160, 14, 14, 0);
+  border-radius: 12px;
+  margin-top: 20px;
+}
